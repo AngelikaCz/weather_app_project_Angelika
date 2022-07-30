@@ -1,0 +1,92 @@
+header {
+  text-align: center;
+  margin-top: 10px;
+}
+h1 {
+  font-weight: bolder;
+}
+div {
+  color: #163172;
+}
+.main {
+  margin: 10px auto;
+  text-align: center;
+  border: 1px solid black;
+  width: 40%;
+  background-color: rgba(214, 228, 240, 0.7);
+  border-radius: 10px;
+}
+.days {
+  text-align: center;
+  border: 1px solid #163172;
+  margin: 10px;
+  line-height: 50px;
+  background-color: rgba(214, 228, 240, 0.7);
+  border-radius: 10px;
+}
+
+.app {
+  border: 2px solid #163172;
+  background-image: url(images/sky.jpg);
+  background-size: cover;
+  font-family: Roboto, "Times New Roman", Times, serif;
+}
+.button {
+  color: #ffffff;
+  border-radius: 20px;
+  background: #1e56a0;
+  padding: 5px 10px;
+  border: 1px solid #163172;
+  box-shadow: 3px 3px 3px black;
+  margin-top: 10px;
+}
+.button:hover {
+  cursor: pointer;
+  background: #163172;
+  transition: all 0.5 ease-in-out;
+}
+
+.currentButton {
+  display: inline;
+  position: relative;
+  left: 175px;
+  bottom: 45px;
+}
+.search {
+  border-radius: 10px;
+  border: 1px solid #163172;
+}
+.temperature {
+  font-size: 25px;
+}
+
+.tempmetric {
+  font-size: 15px;
+  position: relative;
+  bottom: 7px;
+}
+
+.currentday {
+  font-weight: bolder;
+}
+
+.quote {
+  font-size: 20px;
+  font-style: italic;
+}
+.weatherDetails {
+  font-size: 10px;
+}
+
+.fa-cloud-sun {
+  font-size: 30px;
+  color: #1e56a0;
+}
+.fa-sun {
+  font-size: 30px;
+  color: yellow;
+}
+.fa-cloud-sun-rain {
+  font-size: 30px;
+  color: grey;
+}

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>⛅ Weather App</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/cb97f1219f.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+  <body>
+    <div class="container app">
+      <header>
+        <h1>Weather App</h1>
+        <h2>Check the weather for your city</h2>
+        <form id="city-form">
+          <input
+            type="text"
+            class="search"
+            id="city-name"
+            placeholder="Type your city"
+          />
+          <input type="submit" class="button" value="Check" />
+        </form>
+        <button class="button currentButton" id="curButton">Current</button>
+      </header>
+      <div class="main">
+        <span id="city-chosen" class="currentday">Warsaw</span>
+        <br />
+        <span id="current-date">Today 11:00</span>
+        <br />
+        <span class="temperature" id="current-temp">23°</span>
+        <span id="celcius" class="tempmetric">C</span>
+        <br />
+        <i class="fa-solid fa-sun"></i>
+        <br /><span class="weatherDetails" id="humidity"> Humidity : 48% </span>
+        <br /><span class="weatherDetails" id="wind"> Wind : 9km/h </span>
+      </div>
+      <div class="row">
+        <div class="col days">
+          <strong> Thursday </strong><br /><span class="temperature">24°C</span
+          ><br />
+          <i class="fa-solid fa-sun"></i>
+        </div>
+        <div class="col days">
+          <strong> Friday</strong><br />
+          <span class="temperature">20°C</span><br />
+          <i class="fa-solid fa-cloud-sun"></i>
+        </div>
+        <div class="col days">
+          <strong>Saturday </strong><br /><span class="temperature">24°C</span
+          ><br /><i class="fa-solid fa-sun"></i>
+        </div>
+        <div class="col days">
+          <strong>Sunday </strong><br /><span class="temperature">23°C</span
+          ><br /><i class="fa-solid fa-cloud-sun"></i>
+        </div>
+        <div class="col days">
+          <strong>Monday </strong><br /><span class="temperature">20°C</span
+          ><br />
+          <i class="fa-solid fa-cloud-sun-rain"></i>
+        </div>
+      </div>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

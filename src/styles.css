@@ -8,6 +8,14 @@ h1 {
 div {
   color: #163172;
 }
+
+.end {
+  text-align: center;
+  margin: 0 auto;
+  color: #163172;
+  font-size: 10px;
+}
+
 .main {
   margin: 10px auto;
   text-align: center;

@@ -27,7 +27,7 @@ div {
 
 .app {
   border: 2px solid #163172;
-  background-image: url(images/sky.jpg);
+  background-image: url(sky.jpg);
   background-size: cover;
   font-family: Roboto, "Times New Roman", Times, serif;
 }
